@@ -1,4 +1,4 @@
-# Affinity Changer for PS Vita
+# CPU Affinity Mask Changer for PS Vita system apps
 
 Warning! This will only work with reF00D for now.
 
