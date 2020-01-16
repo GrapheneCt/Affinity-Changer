@@ -2,7 +2,7 @@
 
 Warning! This will only work with reF00D for now.
 
-This application allows you to change CPU affinity mask of some PS Vita system applications to all cores, which increases their performance.
+This application allows you to change CPU affinity mask of some PS Vita system applications to all user cores, which increases their performance.
 
 # Some observations:
 
