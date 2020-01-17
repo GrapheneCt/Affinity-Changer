@@ -50,8 +50,8 @@ void flag() {
 	printf("Messages\n");
 	flagger("vs0:app/NPXS10014/eboot.bin");
 	//Settings
-	printf("Settings\n");
-	flagger("vs0:app/NPXS10015/eboot.bin");
+	//printf("Settings\n");
+	//flagger("vs0:app/NPXS10015/eboot.bin");
 	//Checker (why not?)
 	//printf("Checker\n");
 	//flagger("vs0:app/NPXS10068/eboot.bin");
@@ -90,8 +90,8 @@ void deflag() {
 	printf("Messages\n");
 	deflagger("vs0:app/NPXS10014/eboot.bin");
 	//Settings
-	printf("Settings\n");
-	deflagger("vs0:app/NPXS10015/eboot.bin");
+	//printf("Settings\n");
+	//deflagger("vs0:app/NPXS10015/eboot.bin");
 	//Checker
 	//printf("Checker\n");
 	//deflagger("vs0:app/NPXS10068/eboot.bin");
