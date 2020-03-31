@@ -1,4 +1,4 @@
-# CPU Affinity Mask Changer for PS Vita system apps
+# CPU Affinity Mask Changer
 
 This plugiun changes CPU affinity mask of some PS Vita system applications to all user cores, which increases their performance.
 
