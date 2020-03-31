@@ -35,12 +35,21 @@ void _start() __attribute__ ((weak, alias("module_start")));
 int module_start(SceSize argc, const void *args)
 {
 	hook_id = taiHookFunctionExportForKernel(
-		KERNEL_PID,
-		&hook_ref,
-		"SceProcessmgr",
-		0xEB1F8EF7,
-		0x68068618,
-		ksceKernelCreateProcess_patched);
+        KERNEL_PID,
+        &hook_ref,
+        "SceProcessmgr",
+        0x7A69DE86,
+        0x71CF71FD,
+        ksceKernelCreateProcess_patched);
+
+    if(hook_id < 0)
+        hook_id = taiHookFunctionExportForKernel(
+            KERNEL_PID,
+            &hook_ref,
+            "SceProcessmgr",
+            0xEB1F8EF7,
+            0x68068618,
+            ksceKernelCreateProcess_patched);
 
 	return SCE_KERNEL_START_SUCCESS;
 }
