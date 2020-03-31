@@ -1,10 +1,6 @@
 # CPU Affinity Mask Changer for PS Vita system apps
 
-Warning! This will only work with reF00D for now.
-
-This application allows you to change CPU affinity mask of some PS Vita system applications to all user cores, which increases their performance.
-
-Sets cpu affinity mask for the following applications: Friends, Trophies, Music, Messages, Settings, ★Checker(uncomment in src if needed), Parental Controls.
+This plugiun changes CPU affinity mask of some PS Vita system applications to all user cores, which increases their performance.
 
 # Some observations:
 
@@ -28,7 +24,7 @@ Settings:
 
 Boot time: 2.08 sec -> 1.83 sec. Better overall in-app performance.
 
-★Checker (uncomment in src if needed):
+★Checker:
 
 Checks are performed much faster, especially if there is lot of addcont.
 
